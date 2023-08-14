@@ -1,0 +1,11 @@
+.main-container{
+background-color: #2A303C;
+height: 1400px;
+}
+.main-title{
+    padding-left: 60px;
+    font-size: 32px;
+    font-weight: 800px;
+    color: white;
+    padding-top: 30px;
+}
