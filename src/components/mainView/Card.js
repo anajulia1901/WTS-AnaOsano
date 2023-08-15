@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './Card.module.css'
 import JhonWick from '../svg/JhonWick'
-// import Stadistics from '../svg/Stadistics'
+// import NextIcon from "../svg/Next"
+
 
 function Card({ texto }) {
   return (
@@ -14,7 +15,7 @@ function Card({ texto }) {
 
         <div className={styles["title"]}>Jhon Wick 4</div>{texto}
         </div></div>
-        {/* <div className={styles["icons"]}></div> */}
+        {/* <NextIcon  /> */}
 
       </div>
     </div>
