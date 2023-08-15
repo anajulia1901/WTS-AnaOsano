@@ -1,12 +1,16 @@
 import React from 'react'
+import MainContainer from './components/mainView/MainContainer.js'
 import Header from './components/headerContainer/Header.js'
-import MainContainer from './components/mainView/mainContainer.js';
+
+import Card from './components/mainView/Card.js'
 
 function App() {
   return (
 <div>
     <Header/>
-     <MainContainer/>
+    <MainContainer>
+      <Card></Card>
+     </MainContainer>
     </div>
   );
 }

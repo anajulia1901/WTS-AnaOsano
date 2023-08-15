@@ -1,0 +1,37 @@
+.main-card{
+width:1097px;
+height:549px;
+display: flex;
+align-items: center;
+}
+.movie-info{
+width: 783px;
+height: 343px;
+background-color: #D9D9D9;
+opacity: 60%;
+margin-bottom: 150px;
+border:5px solid #554F95;
+border-left: none;
+border-radius: 0 10px 10px 0;
+}
+.title{
+    font-size: 69px;
+    color: black;
+    position: relative;
+    padding-bottom: 20px
+}
+.title::after {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 400px;
+    height: 2px;
+    background-color: #000;
+  }
+.text{
+    color: black;
+    padding: 20px;
+
+}
+

@@ -25,6 +25,7 @@
   }
   .header-button{
     width: 182px;
+    min-width: fit-content;
     height: 45px;
     background-color: #554F95;
     border-radius:20px;
