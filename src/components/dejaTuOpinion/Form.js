@@ -1,4 +1,7 @@
+
+
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./Form.module.css";
 
 const peliculas = [
@@ -15,6 +18,7 @@ const peliculas = [
 ];
 
 function Form() {
+  const navigate = useNavigate();
   const [peliculaSeleccionada, setPeliculaSeleccionada] = useState("");
   const [nombreCompleto, setNombreCompleto] = useState("");
   const [email, setEmail] = useState("");
@@ -26,7 +30,10 @@ function Form() {
     console.log("Nombre:", nombreCompleto);
     console.log("Email:", email);
     console.log("Reseña:", resena);
+
+    navigate("/finalView");
   };
+
   function isValidEmail(email) {
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailPattern.test(email);
@@ -95,11 +102,15 @@ function Form() {
         </div>
         <div className={styles["buttons-container"]}>
           <button
+            type="submit"
             className={`${styles["form-button"]} ${styles["bordered-button"]}`}
           >
             Finalizar
           </button>
-          <button className={`${styles["form-button"]} ${styles["no-border"]}`}>
+          <button
+            type="reset"
+            className={`${styles["form-button"]} ${styles["no-border"]}`}
+          >
             Reiniciar
           </button>
         </div>
@@ -109,3 +120,4 @@ function Form() {
 }
 
 export default Form;
+
