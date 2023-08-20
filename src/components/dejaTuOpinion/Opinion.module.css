@@ -20,9 +20,6 @@
   background-blend-mode: multiply;
 }
 
-.opinion-content {
-    width: 300px;
-}
 .title {
     color: white;
     padding: 15px 0px 15px 60px;
@@ -35,5 +32,14 @@
     font-size: 12px;
     align-self: flex-start;
     padding: 0px 0px 60px 60px;
+  }
+  @media (max-width: 380px) {
+    .title {
+      padding-left: 30px;
+    }
+
+    .sub-title {
+      padding-left: 30px;
+    }
   }
 

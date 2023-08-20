@@ -11,7 +11,15 @@
 }
 .title {
   color: #8d8d8d;
+  text-align: center;
+  display: block;
 }
 .sub-title {
   color: white;
+}
+@media (max-width: 380px) {
+  .sub-title {
+    text-align: center;
+    display: block;
+  }
 }

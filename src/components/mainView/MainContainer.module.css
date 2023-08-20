@@ -16,6 +16,7 @@
 @media screen and (max-width: 380px) {
   .main {
     padding: 10px;
+    height: 600px;
   }
   .card-wrapper {
     display: none;
