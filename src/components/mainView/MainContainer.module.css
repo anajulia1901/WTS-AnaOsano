@@ -13,5 +13,13 @@
 .arrow-button{
     all:unset
 }
+@media screen and (max-width: 380px) {
+  .main {
+    padding: 10px;
+  }
+  .card-wrapper {
+    display: none;
+  }
+}
 
 

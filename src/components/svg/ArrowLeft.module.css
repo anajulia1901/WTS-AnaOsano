@@ -2,3 +2,7 @@
     padding-right: 50px;
     cursor: pointer;
 }
+@media screen and (max-width: 380px)
+{.arrow-svg1 {
+    padding-right: 30px;
+  }}

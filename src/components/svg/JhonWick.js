@@ -1,10 +1,11 @@
 import React from 'react'
+import styles from './JhonWick.module.css'
 
 const JhonWick = () => {
   return (
     <>
-     <svg width="299" height="530" viewBox="0 0 299 530" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-<rect width="299" height="530" fill="url(#pattern0)"/>
+     <svg width="299" height="530" className={styles['jhonwick-icon']}viewBox="0 0 299 530" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+<rect width="299" height="530" className={styles['jhonwick-icon']}fill="url(#pattern0)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlinkHref="#image0_55_838" transform="scale(0.00334448 0.00188679)"/>
